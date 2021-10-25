@@ -1,0 +1,118 @@
+
+body{
+    background-image: url(back2.jpg);
+    
+    font-family:"Lucida Console", "Courier New", monospace;
+    text-align:center;
+    background-size: cover;
+    position: relative; 
+    
+    width: 100%;
+    background-repeat:no-repeat;
+    
+}
+
+
+div.main{
+    margin-top:0px;
+    background:url('pic1.jpg');
+    background-size:1400px;
+    height:400px;
+    background-repeat:no-repeat;
+    width:100%;
+}
+div.block{
+    display:block;
+    height:350px;
+    width:350px;
+    background-color:white;
+    margin-left:20px;
+    margin-top:50px;
+    padding:10px 10px;
+    
+    
+    
+}
+.heading1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:maroon;
+    padding:10px 10px;
+}
+.images{
+    width:200px;
+    height:200px;
+}
+#test{
+    color:white;
+    background-color: maroon;
+    font-size:large;
+    margin-left:50px;
+    padding:15px 15px;
+    font-weight:bold;
+    font-family:fantasy;
+    border-radius:12px;
+}
+form{
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(250, 94, 94,0.615);
+    border-radius: 10px;
+}
+.buttons{
+    border:1px solid maroon;
+    color:maroon;
+    border-radius:12px;
+    padding:10px 40px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgba(250, 94, 94,0.615);
+}
+li.l2{
+    float:left;
+    font-family:cursive;
+    font-size:large;
+    font-weight:bold;
+    
+}
+li.l2 a{
+    display:block;
+    padding:14px 16px;
+    color:maroon;
+    text-decoration:none;
+}
+li.l2 a:hover{
+    background-color:rgba(250, 94, 94);
+}
+.top{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: maroon;
+}
+li.l1{
+    float:left;
+    font-family:cursive;
+    font-size:smaller;
+    font-weight:bold;
+}
+li.l1 a{
+    display:block;
+    padding:5px 5px;
+    color:white;
+    text-decoration:none;
+}
+#logo0{
+    width:17px;
+    height:17px;
+   
+}
+#logo1{
+    width:17px;
+    height:17px;
+    
+}

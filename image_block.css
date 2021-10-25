@@ -1,0 +1,64 @@
+
+.left_subimg{
+    background-image:url(pic1.jpg);
+    opacity:0.9;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height:430px; 
+    text-align: center;
+    
+}
+.inimg_whiteblock{
+    height:380px;
+    width:375px;
+    background-color:white;
+    padding:10px;
+    margin:auto;
+    animation: right-to-left 3s forwards;
+}
+@keyframes right-to-left{
+    100%{
+        transform: translateX(-120%);
+    }
+}
+
+.heading1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:maroon;
+    padding:5px; 
+    margin-bottom:10px;
+}
+.p1_18_75{
+    color:grey;
+    font-size:large;
+    padding:15px; 
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.eligibility_form{
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(250, 94, 94,0.615);
+    border-radius: 10px;
+    margin: auto;
+    margin-top:10px;
+}
+.btn_eligibilty{
+    color:white;
+    background-color: maroon;
+    padding:10px;
+    border-radius:12px;
+    letter-spacing: 1px;
+    margin-left: -10px;
+    transition: transform .4s;
+}
+.btn_eligibilty:hover{
+    transform: scale(1.1);
+}
+.donor_centre_highlight{
+    transition: transform .5s;
+}
+.donor_centre_highlight:hover{
+    transform: scale(1.15);
+}
